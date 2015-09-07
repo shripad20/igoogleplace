@@ -9,11 +9,32 @@
 /* Begin PBXBuildFile section */
 		B43955831B989DFD00B079D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43955821B989DFD00B079D3 /* main.m */; };
 		B43955861B989DFE00B079D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B43955851B989DFE00B079D3 /* AppDelegate.m */; };
-		B43955891B989DFE00B079D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43955881B989DFE00B079D3 /* ViewController.m */; };
-		B439558C1B989DFE00B079D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B439558A1B989DFE00B079D3 /* Main.storyboard */; };
 		B439558E1B989DFE00B079D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B439558D1B989DFE00B079D3 /* Images.xcassets */; };
 		B43955911B989DFE00B079D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B439558F1B989DFE00B079D3 /* LaunchScreen.xib */; };
 		B439559D1B989DFE00B079D3 /* GooglePlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B439559C1B989DFE00B079D3 /* GooglePlacesTests.m */; };
+		B43955A91B989F0500B079D3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43955A81B989F0500B079D3 /* RootViewController.m */; };
+		B43955AC1B989F7500B079D3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43955AB1B989F7500B079D3 /* HomeViewController.m */; };
+		B43955B41B98A1F600B079D3 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B43955B01B98A1F600B079D3 /* OpenSans-Bold.ttf */; };
+		B43955B51B98A1F600B079D3 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B43955B11B98A1F600B079D3 /* OpenSans-Regular.ttf */; };
+		B43955B61B98A1F600B079D3 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B43955B21B98A1F600B079D3 /* OpenSans-Semibold.ttf */; };
+		B43955CD1B98C6B000B079D3 /* PlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43955CC1B98C6B000B079D3 /* PlacesViewController.m */; };
+		B4492D8F1B9B5E22007BEC6E /* PlaceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4492D8E1B9B5E22007BEC6E /* PlaceDetailsViewController.m */; };
+		B44C6E7B1B9B092A0065D374 /* PlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B44C6E7A1B9B092A0065D374 /* PlaceTableViewCell.m */; };
+		B44CDBD81B9CA30900EC78BA /* GooglePlace.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B44CDBD71B9CA30900EC78BA /* GooglePlace.sqlite */; };
+		B44CDBDE1B9CA3CC00EC78BA /* AbstractRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CDBDB1B9CA3CC00EC78BA /* AbstractRepository.m */; };
+		B44CDBDF1B9CA3CC00EC78BA /* FavoriteRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CDBDD1B9CA3CC00EC78BA /* FavoriteRepository.m */; };
+		B44CDBE41B9CA8AA00EC78BA /* img_star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B44CDBE01B9CA8AA00EC78BA /* img_star_selected.png */; };
+		B44CDBE51B9CA8AA00EC78BA /* img_star_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B44CDBE11B9CA8AA00EC78BA /* img_star_selected@2x.png */; };
+		B44CDBE61B9CA8AA00EC78BA /* img_star.png in Resources */ = {isa = PBXBuildFile; fileRef = B44CDBE21B9CA8AA00EC78BA /* img_star.png */; };
+		B44CDBE71B9CA8AA00EC78BA /* img_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B44CDBE31B9CA8AA00EC78BA /* img_star@2x.png */; };
+		B44CDBEA1B9CBAAA00EC78BA /* FavoritePlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B44CDBE91B9CBAAA00EC78BA /* FavoritePlaceViewController.m */; };
+		B44D7C9F1B99F99500E50829 /* PlaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D7C9E1B99F99500E50829 /* PlaceModel.m */; };
+		B44D7CA21B99FFC800E50829 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D7CA11B99FFC800E50829 /* LocationModel.m */; };
+		B44D7CA51B9A0D5500E50829 /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D7CA41B9A0D5500E50829 /* PhotoModel.m */; };
+		B44D7CA81B9A12B500E50829 /* TypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D7CA71B9A12B500E50829 /* TypeModel.m */; };
+		B452C9561B9C2C090044AE9E /* UserDefaultUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B452C9551B9C2C090044AE9E /* UserDefaultUtils.m */; };
+		B464DAB81B9D4A5B00FB90FA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B464DAB51B9D4A5B00FB90FA /* MBProgressHUD.m */; };
+		CD80EEB74B1134F84FB8B27F /* libPods-GooglePlaces.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F556DF7EB2BECC428FEFB5A /* libPods-GooglePlaces.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +48,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB0320BE372528330382499 /* Pods-GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePlaces.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GooglePlaces/Pods-GooglePlaces.debug.xcconfig"; sourceTree = "<group>"; };
+		9F556DF7EB2BECC428FEFB5A /* libPods-GooglePlaces.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GooglePlaces.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B439557D1B989DFD00B079D3 /* GooglePlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43955811B989DFD00B079D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43955821B989DFD00B079D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B43955841B989DFD00B079D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B43955851B989DFE00B079D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B43955871B989DFE00B079D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B43955881B989DFE00B079D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B439558B1B989DFE00B079D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B439558D1B989DFE00B079D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B43955901B989DFE00B079D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B43955961B989DFE00B079D3 /* GooglePlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B439559B1B989DFE00B079D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B439559C1B989DFE00B079D3 /* GooglePlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooglePlacesTests.m; sourceTree = "<group>"; };
+		B43955A71B989F0500B079D3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B43955A81B989F0500B079D3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B43955AA1B989F7500B079D3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B43955AB1B989F7500B079D3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B43955B01B98A1F600B079D3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		B43955B11B98A1F600B079D3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		B43955B21B98A1F600B079D3 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		B43955C71B98B2D500B079D3 /* CommonFilesImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFilesImport.h; sourceTree = "<group>"; };
+		B43955C81B98B2D500B079D3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		B43955CA1B98B2D500B079D3 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		B43955CB1B98C6B000B079D3 /* PlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesViewController.h; sourceTree = "<group>"; };
+		B43955CC1B98C6B000B079D3 /* PlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesViewController.m; sourceTree = "<group>"; };
+		B4492D8D1B9B5E22007BEC6E /* PlaceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailsViewController.h; sourceTree = "<group>"; };
+		B4492D8E1B9B5E22007BEC6E /* PlaceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailsViewController.m; sourceTree = "<group>"; };
+		B44C6E791B9B092A0065D374 /* PlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceTableViewCell.h; sourceTree = "<group>"; };
+		B44C6E7A1B9B092A0065D374 /* PlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceTableViewCell.m; sourceTree = "<group>"; };
+		B44CDBD71B9CA30900EC78BA /* GooglePlace.sqlite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GooglePlace.sqlite; sourceTree = "<group>"; };
+		B44CDBDA1B9CA3CC00EC78BA /* AbstractRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractRepository.h; sourceTree = "<group>"; };
+		B44CDBDB1B9CA3CC00EC78BA /* AbstractRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractRepository.m; sourceTree = "<group>"; };
+		B44CDBDC1B9CA3CC00EC78BA /* FavoriteRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteRepository.h; sourceTree = "<group>"; };
+		B44CDBDD1B9CA3CC00EC78BA /* FavoriteRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteRepository.m; sourceTree = "<group>"; };
+		B44CDBE01B9CA8AA00EC78BA /* img_star_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_star_selected.png; sourceTree = "<group>"; };
+		B44CDBE11B9CA8AA00EC78BA /* img_star_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_star_selected@2x.png"; sourceTree = "<group>"; };
+		B44CDBE21B9CA8AA00EC78BA /* img_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_star.png; sourceTree = "<group>"; };
+		B44CDBE31B9CA8AA00EC78BA /* img_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_star@2x.png"; sourceTree = "<group>"; };
+		B44CDBE81B9CBAAA00EC78BA /* FavoritePlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritePlaceViewController.h; sourceTree = "<group>"; };
+		B44CDBE91B9CBAAA00EC78BA /* FavoritePlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritePlaceViewController.m; sourceTree = "<group>"; };
+		B44D7C9D1B99F99500E50829 /* PlaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceModel.h; sourceTree = "<group>"; };
+		B44D7C9E1B99F99500E50829 /* PlaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceModel.m; sourceTree = "<group>"; };
+		B44D7CA01B99FFC800E50829 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		B44D7CA11B99FFC800E50829 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		B44D7CA31B9A0D5500E50829 /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		B44D7CA41B9A0D5500E50829 /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		B44D7CA61B9A12B500E50829 /* TypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeModel.h; sourceTree = "<group>"; };
+		B44D7CA71B9A12B500E50829 /* TypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeModel.m; sourceTree = "<group>"; };
+		B452C9541B9C2C090044AE9E /* UserDefaultUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultUtils.h; sourceTree = "<group>"; };
+		B452C9551B9C2C090044AE9E /* UserDefaultUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultUtils.m; sourceTree = "<group>"; };
+		B464DAB41B9D4A5B00FB90FA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B464DAB51B9D4A5B00FB90FA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E5F3E4C9F909631200F6602C /* Pods-GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GooglePlaces.release.xcconfig"; path = "Pods/Target Support Files/Pods-GooglePlaces/Pods-GooglePlaces.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD80EEB74B1134F84FB8B27F /* libPods-GooglePlaces.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +121,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34A3ECE3E9AAD188DA3ADE81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB0320BE372528330382499 /* Pods-GooglePlaces.debug.xcconfig */,
+				E5F3E4C9F909631200F6602C /* Pods-GooglePlaces.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		364E763D64F90AE828546EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F556DF7EB2BECC428FEFB5A /* libPods-GooglePlaces.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B43955741B989DFD00B079D3 = {
 			isa = PBXGroup;
 			children = (
 				B439557F1B989DFD00B079D3 /* GooglePlaces */,
 				B43955991B989DFE00B079D3 /* GooglePlacesTests */,
 				B439557E1B989DFD00B079D3 /* Products */,
+				34A3ECE3E9AAD188DA3ADE81 /* Pods */,
+				364E763D64F90AE828546EAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +161,15 @@
 		B439557F1B989DFD00B079D3 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
+				B44CDBD91B9CA3CC00EC78BA /* Repository */,
+				B44C6E781B9B08F30065D374 /* CustomCell */,
+				B44D7C9C1B99F97400E50829 /* Model */,
+				B43955C51B98B2D500B079D3 /* Support */,
+				B43955B71B98B22400B079D3 /* ThirdPartyLibs */,
+				B43955AD1B98A1F600B079D3 /* Assets */,
+				B43955A61B989EF100B079D3 /* ViewControllers */,
 				B43955841B989DFD00B079D3 /* AppDelegate.h */,
 				B43955851B989DFE00B079D3 /* AppDelegate.m */,
-				B43955871B989DFE00B079D3 /* ViewController.h */,
-				B43955881B989DFE00B079D3 /* ViewController.m */,
-				B439558A1B989DFE00B079D3 /* Main.storyboard */,
 				B439558D1B989DFE00B079D3 /* Images.xcassets */,
 				B439558F1B989DFE00B079D3 /* LaunchScreen.xib */,
 				B43955801B989DFD00B079D3 /* Supporting Files */,
@@ -119,6 +203,142 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B43955A61B989EF100B079D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B43955A71B989F0500B079D3 /* RootViewController.h */,
+				B43955A81B989F0500B079D3 /* RootViewController.m */,
+				B43955AA1B989F7500B079D3 /* HomeViewController.h */,
+				B43955AB1B989F7500B079D3 /* HomeViewController.m */,
+				B43955CB1B98C6B000B079D3 /* PlacesViewController.h */,
+				B43955CC1B98C6B000B079D3 /* PlacesViewController.m */,
+				B4492D8D1B9B5E22007BEC6E /* PlaceDetailsViewController.h */,
+				B4492D8E1B9B5E22007BEC6E /* PlaceDetailsViewController.m */,
+				B44CDBE81B9CBAAA00EC78BA /* FavoritePlaceViewController.h */,
+				B44CDBE91B9CBAAA00EC78BA /* FavoritePlaceViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B43955AD1B98A1F600B079D3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B43955AE1B98A1F600B079D3 /* DB */,
+				B43955AF1B98A1F600B079D3 /* Fonts */,
+				B43955B31B98A1F600B079D3 /* Image */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B43955AE1B98A1F600B079D3 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B44CDBD71B9CA30900EC78BA /* GooglePlace.sqlite */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		B43955AF1B98A1F600B079D3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B43955B01B98A1F600B079D3 /* OpenSans-Bold.ttf */,
+				B43955B11B98A1F600B079D3 /* OpenSans-Regular.ttf */,
+				B43955B21B98A1F600B079D3 /* OpenSans-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B43955B31B98A1F600B079D3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B44CDBE01B9CA8AA00EC78BA /* img_star_selected.png */,
+				B44CDBE11B9CA8AA00EC78BA /* img_star_selected@2x.png */,
+				B44CDBE21B9CA8AA00EC78BA /* img_star.png */,
+				B44CDBE31B9CA8AA00EC78BA /* img_star@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B43955B71B98B22400B079D3 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		B43955C51B98B2D500B079D3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B464DAB21B9D4A5B00FB90FA /* MBProgressHUD */,
+				B452C9531B9C2C090044AE9E /* Utils */,
+				B43955C61B98B2D500B079D3 /* Header */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B43955C61B98B2D500B079D3 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				B43955C71B98B2D500B079D3 /* CommonFilesImport.h */,
+				B43955C81B98B2D500B079D3 /* Constants.h */,
+				B43955CA1B98B2D500B079D3 /* Macros.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		B44C6E781B9B08F30065D374 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				B44C6E791B9B092A0065D374 /* PlaceTableViewCell.h */,
+				B44C6E7A1B9B092A0065D374 /* PlaceTableViewCell.m */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		B44CDBD91B9CA3CC00EC78BA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B44CDBDA1B9CA3CC00EC78BA /* AbstractRepository.h */,
+				B44CDBDB1B9CA3CC00EC78BA /* AbstractRepository.m */,
+				B44CDBDC1B9CA3CC00EC78BA /* FavoriteRepository.h */,
+				B44CDBDD1B9CA3CC00EC78BA /* FavoriteRepository.m */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B44D7C9C1B99F97400E50829 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B44D7C9D1B99F99500E50829 /* PlaceModel.h */,
+				B44D7C9E1B99F99500E50829 /* PlaceModel.m */,
+				B44D7CA01B99FFC800E50829 /* LocationModel.h */,
+				B44D7CA11B99FFC800E50829 /* LocationModel.m */,
+				B44D7CA31B9A0D5500E50829 /* PhotoModel.h */,
+				B44D7CA41B9A0D5500E50829 /* PhotoModel.m */,
+				B44D7CA61B9A12B500E50829 /* TypeModel.h */,
+				B44D7CA71B9A12B500E50829 /* TypeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B452C9531B9C2C090044AE9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B452C9541B9C2C090044AE9E /* UserDefaultUtils.h */,
+				B452C9551B9C2C090044AE9E /* UserDefaultUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B464DAB21B9D4A5B00FB90FA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B464DAB41B9D4A5B00FB90FA /* MBProgressHUD.h */,
+				B464DAB51B9D4A5B00FB90FA /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B43955A01B989DFE00B079D3 /* Build configuration list for PBXNativeTarget "GooglePlaces" */;
 			buildPhases = (
+				E596FF4AEEFFA3A567A84BEF /* Check Pods Manifest.lock */,
 				B43955791B989DFD00B079D3 /* Sources */,
 				B439557A1B989DFD00B079D3 /* Frameworks */,
 				B439557B1B989DFD00B079D3 /* Resources */,
+				FF1C19774DC353A2D5643B90 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +421,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B439558C1B989DFE00B079D3 /* Main.storyboard in Resources */,
+				B44CDBE41B9CA8AA00EC78BA /* img_star_selected.png in Resources */,
+				B44CDBD81B9CA30900EC78BA /* GooglePlace.sqlite in Resources */,
 				B43955911B989DFE00B079D3 /* LaunchScreen.xib in Resources */,
+				B44CDBE51B9CA8AA00EC78BA /* img_star_selected@2x.png in Resources */,
 				B439558E1B989DFE00B079D3 /* Images.xcassets in Resources */,
+				B43955B51B98A1F600B079D3 /* OpenSans-Regular.ttf in Resources */,
+				B43955B41B98A1F600B079D3 /* OpenSans-Bold.ttf in Resources */,
+				B44CDBE61B9CA8AA00EC78BA /* img_star.png in Resources */,
+				B44CDBE71B9CA8AA00EC78BA /* img_star@2x.png in Resources */,
+				B43955B61B98A1F600B079D3 /* OpenSans-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +443,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E596FF4AEEFFA3A567A84BEF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1C19774DC353A2D5643B90 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GooglePlaces/Pods-GooglePlaces-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B43955791B989DFD00B079D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43955891B989DFE00B079D3 /* ViewController.m in Sources */,
+				B44D7CA21B99FFC800E50829 /* LocationModel.m in Sources */,
+				B43955CD1B98C6B000B079D3 /* PlacesViewController.m in Sources */,
+				B44D7CA51B9A0D5500E50829 /* PhotoModel.m in Sources */,
+				B44D7C9F1B99F99500E50829 /* PlaceModel.m in Sources */,
+				B44D7CA81B9A12B500E50829 /* TypeModel.m in Sources */,
 				B43955861B989DFE00B079D3 /* AppDelegate.m in Sources */,
 				B43955831B989DFD00B079D3 /* main.m in Sources */,
+				B44C6E7B1B9B092A0065D374 /* PlaceTableViewCell.m in Sources */,
+				B43955A91B989F0500B079D3 /* RootViewController.m in Sources */,
+				B44CDBDF1B9CA3CC00EC78BA /* FavoriteRepository.m in Sources */,
+				B44CDBEA1B9CBAAA00EC78BA /* FavoritePlaceViewController.m in Sources */,
+				B4492D8F1B9B5E22007BEC6E /* PlaceDetailsViewController.m in Sources */,
+				B452C9561B9C2C090044AE9E /* UserDefaultUtils.m in Sources */,
+				B44CDBDE1B9CA3CC00EC78BA /* AbstractRepository.m in Sources */,
+				B43955AC1B989F7500B079D3 /* HomeViewController.m in Sources */,
+				B464DAB81B9D4A5B00FB90FA /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +519,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B439558A1B989DFE00B079D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B439558B1B989DFE00B079D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B439558F1B989DFE00B079D3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,9 +612,11 @@
 		};
 		B43955A11B989DFE00B079D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB0320BE372528330382499 /* Pods-GooglePlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,9 +624,11 @@
 		};
 		B43955A21B989DFE00B079D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F3E4C9F909631200F6602C /* Pods-GooglePlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +687,7 @@
 				B43955A21B989DFE00B079D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B43955A31B989DFE00B079D3 /* Build configuration list for PBXNativeTarget "GooglePlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +696,7 @@
 				B43955A51B989DFE00B079D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

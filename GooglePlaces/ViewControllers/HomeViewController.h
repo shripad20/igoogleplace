@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  GooglePlaces
 //
 //  Created by Shripad on 03/09/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface HomeViewController : UIViewController
 
+@property (nonatomic, assign) BOOL didSetupConstraints;
 
 @end
-

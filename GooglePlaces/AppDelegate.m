@@ -14,9 +14,30 @@
 
 @implementation AppDelegate
 
+- (void)startUpApplication {
+    
+    if (!self.rootViewController) {
+        
+        self.rootViewController = [[RootViewController alloc]init];
+    }
+    self.rootViewController.view.backgroundColor = [UIColor whiteColor];
+    
+//    [self intializeDatabase];
+    
+    [self.window setRootViewController:self.rootViewController];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [self startUpApplication];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 }
 

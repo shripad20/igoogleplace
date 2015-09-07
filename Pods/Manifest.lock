@@ -1,0 +1,17 @@
+PODS:
+  - FMDB (2.4):
+    - FMDB/standard
+  - FMDB/common (2.4)
+  - FMDB/standard (2.4):
+    - FMDB/common
+  - PureLayout (2.0.2)
+
+DEPENDENCIES:
+  - FMDB
+  - PureLayout
+
+SPEC CHECKSUMS:
+  FMDB: 0b2fa25e5264ef177973c0cb8c02c711107979aa
+  PureLayout: 03fe8d5ab68f5871038b3b7065d28ac880d5f2a0
+
+COCOAPODS: 0.34.4
